@@ -1,0 +1,25 @@
+<meta charset="utf-8">
+
+<script>
+
+	var pulaLinha = function() {
+		document.write("<br>");
+	}
+
+	var mostra = function(frase) {
+		document.write(frase);
+		pulaLinha();
+	}
+
+	alert("Olá, que tal me dizer 5 números para realizarmos o seu quadrado?")
+
+	var repeticao = []
+		for(i = 0; i < 5; i = i + 1) {
+
+		repeticao[i] =  parseInt(prompt("Diga o " + (i + 1) + " número para realizar o quadrado dele"));
+		}
+
+
+	mostra("A raiz do seus números são :" + repeticao * 2);
+
+</script>
